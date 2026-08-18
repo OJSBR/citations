@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-3.5.0.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](../../releases) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/citations/releases/download/3.5.0.0/citations-3.5.0.0.tar.gz) — or browse all [Releases](../../releases).
 
 Shows, on the article (and preprint) landing page, the **total number of citations** and the
 **list of citing works**, gathered from **Crossref Cited-by**, **Scopus**, **Europe PMC** and
