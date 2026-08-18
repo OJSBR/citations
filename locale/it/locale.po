@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-18T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-08-18T00:00:00+00:00\n"
+"Language: it\n"
+
+msgid "plugins.generic.citations.title"
+msgstr "Plugin Scopus/Crossref"
+
+msgid "plugins.generic.citations.desc"
+msgstr "Questo plugin mostra il numero totale di citazioni e l'elenco degli articoli citanti, ottenuti da Scopus e/o Crossref."
+
+msgid "plugins.generic.citations.provider"
+msgstr "Fonte"
+
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Scegli tra Crossref, Scopus o entrambi."
+
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus e Crossref"
+
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+msgid "plugins.generic.citations.api.desc"
+msgstr "Le credenziali API vengono richieste nei campi seguenti. Sono memorizzate ma non vengono più mostrate, per motivi di sicurezza. Non è necessario reinserirle: le credenziali già memorizzate continuano a essere usate. Quando una credenziale è memorizzata, il relativo campo appare con un bordo azzurro."
+
+msgid "plugins.generic.citations.scopus"
+msgstr "API Scopus"
+
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Per recuperare le statistiche di citazione da Scopus è necessaria una chiave API. Se non ne hai una, puoi richiederla <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">qui</a> (gratuitamente)."
+
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Inserisci qui la tua chiave API Scopus"
+
+msgid "plugins.generic.citations.crossref"
+msgstr "API Crossref"
+
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Per accedere all'API Crossref occorre essere <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">membri</a> di Crossref, il che comporta il pagamento di <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">quote</a>.<br />Se sei membro di Crossref, inserisci qui le tue credenziali.<br /><strong>Devi <a href=\"https://www.crossref.org/contact\" target=\"_blank\">contattare Crossref</a> per richiedere l'attivazione del servizio \"Cited-by\" per il tuo o i tuoi prefissi.</strong>"
+
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Inserisci qui il nome utente dell'API Crossref"
+
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Inserisci qui la password dell'API Crossref"
+
+msgid "plugins.generic.citations.show.total"
+msgstr "Numero totale di citazioni"
+
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Questa opzione attiva o disattiva la visualizzazione del numero totale di citazioni."
+
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Mostra il numero totale di citazioni"
+
+msgid "plugins.generic.citations.show.list"
+msgstr "Elenco degli articoli citanti"
+
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Questa opzione attiva o disattiva l'elenco degli articoli che citano questo articolo."
+
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Mostra l'elenco degli articoli citanti"
+
+msgid "plugins.generic.citations.max.height"
+msgstr "Altezza del blocco"
+
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Inserisci qui l'altezza massima del blocco. Se il campo è vuoto o contiene 0, l'altezza non viene limitata."
+
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Questa opzione attiva o disattiva il link alla ricerca su Google Scholar."
+
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Mostra Google Scholar"
+
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Questa opzione attiva o disattiva il link alla ricerca su Europe PMC."
+
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Mostra Europe PMC"
+

@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * @file CitationsPlugin.php
+ *
+ * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
+ *
+ * @class CitationsPlugin
+ *
+ * @brief Shows citation counts and citing works from Crossref, Scopus,
+ *  Europe PMC and Google Scholar on the article/preprint landing page.
+ */
+
 namespace APP\plugins\generic\citations;
 
 use APP\core\Application;
@@ -34,9 +45,9 @@ class CitationsPlugin extends GenericPlugin
             $templateMgr->addStyleSheet(
                 'citations', $request->getBaseUrl() . '/' . $this->getPluginPath() . '/css/citations.css'
             );
-            Hook::add('Templates::Article::Details', array($this, 'citationsContent'));
-            Hook::add('Templates::Preprint::Details', array($this, 'citationsContent'));
-            Hook::add('LoadHandler', array($this, 'setPageHandler'));
+            Hook::add('Templates::Article::Details', $this->citationsContent(...));
+            Hook::add('Templates::Preprint::Details', $this->citationsContent(...));
+            Hook::add('LoadHandler', $this->setPageHandler(...));
         }
         return $success;
     }
@@ -50,43 +61,54 @@ class CitationsPlugin extends GenericPlugin
     }
 
     /**
-     * @copydoc Plugin::getDisplayName()
+     * @copydoc Plugin::getDescription()
      */
     public function getDescription(): string
     {
         return __('plugins.generic.citations.desc');
     }
 
-
-    public function citationsContent($hookName, $args): void
+    /**
+     * Appends the citations widget to the article/preprint details template.
+     */
+    public function citationsContent(string $hookName, array $args): bool
     {
         $request = Application::get()->getRequest();
-        $smarty =& $args[1];
+        $context = $request->getContext();
+        if (!$context) {
+            return Hook::CONTINUE;
+        }
+        $smarty = &$args[1];
         $pubId = $this->getPubId($smarty);
-        //$pubId = '10.1177/09636625221100686';
-        $contextId = $request->getContext()->getId();
-        $settings = json_decode($this->getSetting($contextId, 'settings'), true);
+        $settings = json_decode((string) $this->getSetting($context->getId(), 'settings'), true);
         if (!empty($pubId) && !empty($settings)) {
-            $smarty->assign(array(
+            $smarty->assign([
                 'imagePath' => $request->getBaseUrl() . '/' . $this->getPluginPath() . '/images/',
                 'urlArgs' => ['doi' => $pubId],
-                'showGoogle' => $settings['showGoogle'] ?: 0,
-                'maxHeight' => $settings['maxHeight'] ?: 300
-            ));
+                'showGoogle' => $settings['showGoogle'] ?? 0,
+                'maxHeight' => $settings['maxHeight'] ?? 300
+            ]);
             $smarty->addJavaScript('citations', $request->getBaseUrl() . '/' . $this->getPluginPath() . '/js/citations.js');
             $args[2] .= $smarty->fetch($this->getTemplateResource('citations.tpl'));
         }
+        return Hook::CONTINUE;
     }
 
-
-    public function setPageHandler($hookName, $params): bool
+    /**
+     * Routes <host>/index.php/<context>/citations/get to the plugin handler.
+     *
+     * OJS 3.5 no longer accepts the HANDLER_CLASS constant (PKPPageRouter throws
+     * if it is defined); the handler instance is injected through $params[3].
+     */
+    public function setPageHandler(string $hookName, array $params): bool
     {
-        $page = $params[0];
+        $page = &$params[0];
+        $handler = &$params[3];
         if ($this->getEnabled() && $page === 'citations') {
-            define('HANDLER_CLASS', CitationsHandler::class);
-            return true;
+            $handler = new CitationsHandler();
+            return Hook::ABORT;
         }
-        return false;
+        return Hook::CONTINUE;
     }
 
     /**
@@ -94,31 +116,32 @@ class CitationsPlugin extends GenericPlugin
      */
     public function getActions($request, $actionArgs): array
     {
+        $actions = parent::getActions($request, $actionArgs);
+        if (!$this->getEnabled()) {
+            return $actions;
+        }
         $router = $request->getRouter();
-        import('lib.pkp.classes.linkAction.request.AjaxModal');
-        return array_merge(
-            $this->getEnabled() ? array(
-                new LinkAction(
-                    'settings',
-                    new AjaxModal(
-                        $router->url(
-                            $request,
-                            null,
-                            null,
-                            'manage',
-                            null,
-                            array('verb' => 'settings', 'plugin' => $this->getName(),
-                                'category' => 'generic'
-                            )
-                        ),
-                        $this->getDisplayName()
-                    ),
-                    __('manager.plugins.settings'),
-                    null
+        array_unshift($actions, new LinkAction(
+            'settings',
+            new AjaxModal(
+                $router->url(
+                    $request,
+                    null,
+                    null,
+                    'manage',
+                    null,
+                    [
+                        'verb' => 'settings',
+                        'plugin' => $this->getName(),
+                        'category' => 'generic'
+                    ]
                 ),
-            ) : array(),
-            parent::getActions($request, $actionArgs)
-        );
+                $this->getDisplayName()
+            ),
+            __('manager.plugins.settings'),
+            null
+        ));
+        return $actions;
     }
 
 
@@ -163,7 +186,7 @@ class CitationsPlugin extends GenericPlugin
         } elseif (str_contains($application, 'ops')) {
             $submission = $smarty->getTemplateVars('preprint');
         }
-        return $submission?->getStoredPubId('doi');
+        return $submission?->getCurrentPublication()?->getDoi();
     }
 
 }

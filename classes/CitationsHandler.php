@@ -27,6 +27,7 @@ class CitationsHandler extends Handler
         if (empty($doi) || empty($settings)) {
             return new JSONMessage(false, empty($settings) ? 'Missing settings' : 'Missing DOI');
         }
+        $result = [];
         if ('all' === $settings['provider'] || 'crossref' === $settings['provider']) {
             $crossrefProcessor = new CrossrefProcessor();
             $result['crossref'] = $crossrefProcessor->process($doi, $settings);
@@ -56,12 +57,12 @@ class CitationsHandler extends Handler
     private function loadSettings(PKPRequest $request): array
     {
         $plugin = PluginRegistry::getPlugin('generic', 'citationsplugin');
-        $contextId = $request->getContext()->getId();
-        if (null !== $contextId) {
-            return json_decode($plugin->getSetting($contextId, 'settings') ?? [], true);
-        } else {
-            return json_decode('', true);
+        $context = $request->getContext();
+        if (!$plugin || !$context) {
+            return [];
         }
+        $settings = json_decode((string) $plugin->getSetting($context->getId(), 'settings'), true);
+        return is_array($settings) ? $settings : [];
     }
 
     /** checks if the doi of a scopus citation is already in the crossref citations and removes it if so
