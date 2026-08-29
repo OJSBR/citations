@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: uk\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Модуль Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Цей модуль показує загальну кількість цитувань і список статей «цитовано в» зі Scopus та/або Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Постачальник"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Виберіть Crossref, Scopus або обидва."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus і Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Облікові дані API запитуються в полях нижче. Вони зберігаються, але з міркувань безпеки повторно не показуються. Вводити їх знову не потрібно — буде використано вже збережені. Якщо дані збережено, відповідні поля позначено синьою рамкою."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Щоб отримувати статистику цитувань зі Scopus, потрібен ключ API. Якщо ключа ще немає, його можна запросити <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">тут</a> (безкоштовно)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Введіть тут ключ API Scopus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Для доступу до Crossref потрібно бути <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">членом</a> Crossref, що пов'язано з <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">внесками</a>.<br />Якщо ви член Crossref, введіть тут свої облікові дані.<br /><strong>Службу Cited-by типово ввімкнено для всіх членів і префіксів Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Введіть тут ім'я користувача Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Введіть тут пароль Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Загальна кількість цитувань"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Загальну кількість цитувань можна ввімкнути або вимкнути цим параметром."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Увімкнути загальну кількість цитувань"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "список статей «цитовано в»"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Список статей «цитовано в» можна ввімкнути або вимкнути цим параметром"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Увімкнути список статей «цитовано в»"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Висота блока"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Укажіть тут максимальну висоту блока. Якщо залишити поле порожнім або ввести 0, висота не обмежується."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Посилання на пошук у Google Scholar можна ввімкнути або вимкнути цим параметром."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Увімкнути Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Посилання на пошук у Europe PMC можна ввімкнути або вимкнути цим параметром."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Увімкнути Europe PMC"

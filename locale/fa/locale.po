@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fa\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "افزونهٔ Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "این افزونه شمار کل استنادها و فهرست مقاله‌های «استنادکننده» را از Scopus و/یا Crossref نشان می‌دهد."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "ارائه‌دهنده"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "میان Crossref، Scopus یا هر دو انتخاب کنید."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus و Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "اعتبارنامه‌های API در فیلدهای زیر خواسته می‌شود. این‌ها ذخیره می‌شوند اما به دلایل امنیتی دوباره نمایش داده نمی‌شوند. لازم نیست دوباره واردشان کنید؛ همان‌های ذخیره‌شده به کار می‌روند. اگر ذخیره شده باشند، فیلد مربوط با کادر آبی مشخص می‌شود."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "برای دریافت آمار استناد از Scopus به کلید API نیاز دارید. اگر هنوز کلیدی ندارید، می‌توانید <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">اینجا</a> رایگان درخواست کنید"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "کلید API اسکوپوس را اینجا وارد کنید."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "برای دسترسی به Crossref باید <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">عضو</a> Crossref باشید؛ این عضویت <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">هزینه</a> دارد.<br />اگر عضو هستید، اعتبارنامهٔ خود را اینجا وارد کنید.<br /><strong>سرویس Cited-by به‌طور پیش‌فرض برای همهٔ اعضا/پیشوندهای Crossref فعال است.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "نام کاربری Crossref را اینجا وارد کنید."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "گذرواژهٔ Crossref را اینجا وارد کنید."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "شمار کل استنادها"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "شمار کل استنادها را می‌توان با این گزینه فعال یا غیرفعال کرد."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "فعال کردن شمار کل استنادها"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "فهرست مقاله‌های «استنادکننده»"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "فهرست مقاله‌های «استنادکننده» را می‌توان با این گزینه فعال یا غیرفعال کرد"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "فعال کردن فهرست مقاله‌های «استنادکننده»"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "ارتفاع بلوک"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "بیشینهٔ ارتفاع بلوک را اینجا وارد کنید. اگر فیلد را خالی بگذارید یا ۰ وارد کنید، ارتفاع محدود نمی‌شود."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "پیوند جست‌وجو در Google Scholar را می‌توان با این گزینه فعال یا غیرفعال کرد."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "فعال کردن Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "پیوند جست‌وجو در Europe PMC را می‌توان با این گزینه فعال یا غیرفعال کرد."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "فعال کردن Europe PMC"

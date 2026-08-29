@@ -9,7 +9,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-11-10T12:30:27+00:00\n"
 "PO-Revision-Date: 2020-11-10T12:30:27+00:00\n"
-"Language: \n"
+"Language: es\n"
+
 
 msgid "plugins.generic.citations.title"
 msgstr "Scopus/Crossref Módulo"

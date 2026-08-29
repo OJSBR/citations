@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sr_Latn\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Dodatak Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Ovaj dodatak prikazuje ukupan broj citata i listu članaka „citirano u“ iz Scopus-a i/ili Crossref-a."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Dobavljač"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Izaberite između Crossref, Scopus ili oba."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus i Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Akreditivi za API se traže u sledećim poljima. Čuvaju se, ali se iz bezbednosnih razloga ne prikazuju ponovo. Ne morate ih ponovo unositi jer će se koristiti već sačuvani. Ako su sačuvani, odgovarajuća polja su označena plavim okvirom."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Da biste preuzimali statistiku citiranja iz Scopus-a, potreban vam je API ključ. Ako ga još nemate, možete ga zatražiti <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">ovde</a> (besplatno)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Ovde unesite Scopus API ključ."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Za pristup Crossref-u morate biti <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">član</a> Crossref-a, što podrazumeva <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">naknade</a>.<br />Ako ste član, ovde unesite svoje akreditive.<br /><strong>Usluga Cited-by je podrazumevano uključena za sve članove i prefikse Crossref-a.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Ovde unesite korisničko ime za Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Ovde unesite lozinku za Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Ukupan broj citata"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Ukupan broj citata može se uključiti ili isključiti ovom opcijom."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Omogući ukupan broj citata"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "lista članaka „citirano u“"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Lista članaka „citirano u“ može se uključiti ili isključiti ovom opcijom"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Omogući listu članaka „citirano u“"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Visina bloka"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Ovde unesite najveću visinu bloka. Ako polje ostane prazno ili unesete 0, visina se ne ograničava."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Veza ka pretrazi u Google Scholar može se uključiti ili isključiti ovom opcijom."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Omogući Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Veza ka pretrazi u Europe PMC može se uključiti ili isključiti ovom opcijom."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Omogući Europe PMC"

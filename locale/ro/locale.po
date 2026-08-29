@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ro\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Modul Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Acest modul afișează numărul total de citări și o listă de articole „citat de” din Scopus și/sau Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Furnizor"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Alegeți între Crossref, Scopus sau ambele."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus și Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Datele de autentificare API sunt cerute în câmpurile de mai jos. Ele se stochează, dar nu se reafișează din motive de securitate. Nu trebuie să le reintroduceți, deoarece vor fi folosite cele deja stocate. Dacă există date stocate, câmpurile corespunzătoare sunt marcate cu un chenar albastru."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Pentru a prelua statistici de citare din Scopus aveți nevoie de o cheie API. Dacă nu aveți încă una, o puteți solicita <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">aici</a> (gratuit)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Introduceți aici cheia API Scopus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Pentru acces la Crossref trebuie să fiți <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">membru</a> Crossref. Acest lucru implică <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">taxe</a>.<br />Dacă sunteți membru Crossref, introduceți aici datele de autentificare.<br /><strong>Serviciul Cited-by este activat implicit pentru toți membrii și prefixele Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Introduceți aici numele de utilizator Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Introduceți aici parola Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Numărul total de citări"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Numărul total de citări poate fi activat sau dezactivat cu această opțiune."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Activează numărul total de citări"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "lista articolelor „citat de”"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Lista articolelor „citat de” poate fi activată sau dezactivată cu această opțiune"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Activează lista articolelor „citat de”"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Înălțimea blocului"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Introduceți aici înălțimea maximă a blocului. Dacă lăsați câmpul gol sau puneți 0, înălțimea nu este limitată."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Linkul către căutarea în Google Scholar poate fi activat sau dezactivat cu această opțiune."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Activează Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Linkul către căutarea în Europe PMC poate fi activat sau dezactivat cu această opțiune."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Activează Europe PMC"

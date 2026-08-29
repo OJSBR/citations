@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sv\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref-tillägg"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Detta tillägg visar det totala antalet citeringar och en lista över ”citerad av”-artiklar från Scopus och/eller Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Leverantör"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Välj mellan Crossref, Scopus eller båda."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus och Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API-uppgifterna anges i fälten nedan. De lagras men visas inte igen av säkerhetsskäl. Du behöver inte ange dem på nytt eftersom de redan lagrade används. Om uppgifter är lagrade markeras motsvarande fält med en blå ram."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "För att hämta citeringsstatistik från Scopus behöver du en API-nyckel. Har du ingen ännu kan du begära en <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">här</a> (kostnadsfritt)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Ange Scopus API-nyckeln här."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "För att få tillgång till Crossref måste du vara <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">medlem</a> i Crossref, vilket är förenat med <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">avgifter</a>.<br />Är du medlem i Crossref anger du dina uppgifter här.<br /><strong>Tjänsten Cited-by är påslagen som standard för alla Crossref-medlemmar och -prefix.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Ange Crossref-användarnamnet här."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Ange Crossref-lösenordet här."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Totalt antal citeringar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Det totala antalet citeringar kan slås på eller av med det här alternativet."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Aktivera totalt antal citeringar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "lista över ”citerad av”-artiklar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Listan över ”citerad av”-artiklar kan slås på eller av med det här alternativet"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Aktivera listan över ”citerad av”-artiklar"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Blockhöjd"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Ange här blockets maximala höjd. Lämnar du fältet tomt eller anger 0 begränsas inte höjden."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Länken till sökningen i Google Scholar kan slås på eller av med det här alternativet."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Aktivera Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Länken till sökningen i Europe PMC kan slås på eller av med det här alternativet."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Aktivera Europe PMC"

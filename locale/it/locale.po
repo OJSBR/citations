@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2026-08-18T00:00:00+00:00\n"
 "Language: it\n"
 
+
 msgid "plugins.generic.citations.title"
 msgstr "Plugin Scopus/Crossref"
 
@@ -97,4 +98,3 @@ msgstr "Questa opzione attiva o disattiva il link alla ricerca su Europe PMC."
 
 msgid "plugins.generic.citations.show.pmc.check"
 msgstr "Mostra Europe PMC"
-

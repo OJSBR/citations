@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: eu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref plugina"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Plugin honek aipamen kopuru osoa eta Scopus eta/edo Crossref-eko «nork aipatua» artikuluen zerrenda erakusten ditu."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Hornitzailea"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Aukeratu Crossref, Scopus edo biak."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus eta Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "APIaren kredentzialak hurrengo eremuetan eskatzen dira. Gorde egiten dira, baina segurtasunagatik ez dira berriro erakusten. Ez dituzu berriro sartu behar, gordeta daudenak erabiliko baitira. Gordeta badaude, dagozkien eremuek ertz urdina dute."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus-etik aipamen-estatistikak eskuratzeko API gako bat behar duzu. Oraindik ez baduzu, <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">hemen</a> eska dezakezu (doan)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Sartu hemen Scopus API gakoa."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref-era sartzeko Crossref-eko <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">kide</a> izan behar duzu, eta horrek <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">kuotak</a> ditu.<br />Kide bazara, sartu hemen zure kredentzialak.<br /><strong>Cited-by zerbitzua lehenetsita dago Crossref-eko kide eta aurrizki guztientzat.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Sartu hemen Crossref erabiltzaile-izena."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Sartu hemen Crossref pasahitza."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Aipamen kopuru osoa"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Aipamen kopuru osoa aukera honekin gaitu edo desgaitu daiteke."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Gaitu aipamen kopuru osoa"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "«nork aipatua» artikuluen zerrenda"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "«Nork aipatua» artikuluen zerrenda aukera honekin gaitu edo desgaitu daiteke"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Gaitu «nork aipatua» artikuluen zerrenda"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Blokearen altuera"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Sartu hemen blokearen gehieneko altuera. Eremua hutsik uzten baduzu edo 0 jartzen baduzu, altuera ez da mugatzen."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar bilaketarako esteka aukera honekin gaitu edo desgaitu daiteke."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Gaitu Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC bilaketarako esteka aukera honekin gaitu edo desgaitu daiteke."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Gaitu Europe PMC"

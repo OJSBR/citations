@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ja\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref プラグイン"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "このプラグインは、Scopus や Crossref からの被引用総数と「被引用」論文一覧を表示します。"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "提供元"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Crossref、Scopus、またはその両方から選びます。"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus と Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API の認証情報は以下の項目で入力します。保存されますが、安全のため再表示はされません。保存済みの情報が使われるため、入力し直す必要はありません。保存されている場合、該当する入力欄は青い枠で示されます。"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus から被引用統計を取得するには API キーが必要です。まだお持ちでない場合は<a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">こちら</a>から無料で申請できます"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "ここに Scopus の API キーを入力します。"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref を利用するには Crossref の<a href=\"https://www.crossref.org/membership/\" target=\"_blank\">会員</a>である必要があり、<a href=\"https://www.crossref.org/fees/\" target=\"_blank\">会費</a>がかかります。<br />会員の場合は、ここに認証情報を入力してください。<br /><strong>Cited-by サービスは、すべての Crossref 会員・プレフィックスで既定で有効です。</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "ここに Crossref のユーザー名を入力します。"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "ここに Crossref のパスワードを入力します。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "被引用総数"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "被引用総数は、この設定で有効・無効を切り替えられます。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "被引用総数を有効にする"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "「被引用」論文一覧"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "「被引用」論文一覧は、この設定で有効・無効を切り替えられます"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "「被引用」論文一覧を有効にする"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "ブロックの高さ"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "ここにブロックの最大の高さを入力します。空欄のままにするか 0 を入れると、高さは制限されません。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar 検索へのリンクは、この設定で有効・無効を切り替えられます。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Google Scholar を有効にする"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC 検索へのリンクは、この設定で有効・無効を切り替えられます。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Europe PMC を有効にする"

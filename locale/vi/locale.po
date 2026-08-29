@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: vi\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Trình cắm Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Trình cắm này hiển thị tổng số trích dẫn và danh sách bài báo \"được trích dẫn bởi\" từ Scopus và/hoặc Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Nhà cung cấp"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Chọn giữa Crossref, Scopus hoặc cả hai."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus và Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Thông tin đăng nhập API được yêu cầu ở các ô bên dưới. Chúng được lưu nhưng không hiển thị lại vì lý do an toàn. Bạn không cần nhập lại vì hệ thống sẽ dùng thông tin đã lưu. Nếu đã lưu, ô nhập tương ứng sẽ có viền màu xanh."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Để lấy thống kê trích dẫn từ Scopus, bạn cần một khóa API. Nếu chưa có, bạn có thể đăng ký <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">tại đây</a> (miễn phí)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Nhập khóa API Scopus tại đây."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Để truy cập Crossref, bạn phải là <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">thành viên</a> của Crossref; việc này đi kèm <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">phí</a>.<br />Nếu bạn là thành viên Crossref, hãy nhập thông tin đăng nhập tại đây.<br /><strong>Dịch vụ Cited-by được bật mặc định cho mọi thành viên/tiền tố của Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Nhập tên đăng nhập Crossref tại đây."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Nhập mật khẩu Crossref tại đây."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Tổng số trích dẫn"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Tổng số trích dẫn có thể bật hoặc tắt bằng tùy chọn này."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Bật tổng số trích dẫn"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "danh sách bài báo \"được trích dẫn bởi\""
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Danh sách bài báo \"được trích dẫn bởi\" có thể bật hoặc tắt bằng tùy chọn này"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Bật danh sách bài báo \"được trích dẫn bởi\""
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Chiều cao khối"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Nhập chiều cao tối đa của khối tại đây. Nếu để trống hoặc nhập 0, chiều cao sẽ không bị giới hạn."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Liên kết tới tìm kiếm trên Google Scholar có thể bật hoặc tắt bằng tùy chọn này."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Bật Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Liên kết tới tìm kiếm trên Europe PMC có thể bật hoặc tắt bằng tùy chọn này."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Bật Europe PMC"

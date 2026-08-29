@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref bővítmény"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Ez a bővítmény megjeleníti az idézetek teljes számát és az „idézte” cikkek listáját a Scopusból és/vagy a Crossrefből."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Szolgáltató"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Válasszon a Crossref, a Scopus vagy mindkettő közül."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus és Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Az API hitelesítő adatait az alábbi mezőkben kérjük. Tárolásra kerülnek, de biztonsági okból nem jelennek meg újra. Nem kell újra megadni őket, mert a már tárolt adatokat használjuk. Ha vannak tárolt adatok, a megfelelő mezők kék kerettel jelennek meg."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "A Scopus idézettségi statisztikáinak lekéréséhez API-kulcs szükséges. Ha még nincs, <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">itt</a> igényelhet (ingyenesen)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Adja meg itt a Scopus API-kulcsot."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "A Crossref eléréséhez Crossref-<a href=\"https://www.crossref.org/membership/\" target=\"_blank\">tagság</a> szükséges, ami <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">díjakkal</a> jár.<br />Ha tag, adja meg itt a hitelesítő adatait.<br /><strong>A Cited-by szolgáltatás alapértelmezés szerint minden Crossref-tag és -előtag esetében be van kapcsolva.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Adja meg itt a Crossref felhasználónevet."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Adja meg itt a Crossref jelszót."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Idézetek teljes száma"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Az idézetek teljes száma ezzel a beállítással kapcsolható be és ki."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Az idézetek teljes számának bekapcsolása"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "„idézte” cikkek listája"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Az „idézte” cikklista ezzel a beállítással kapcsolható be és ki"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Az „idézte” cikkek listájának bekapcsolása"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Blokk magassága"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Adja meg itt a blokk legnagyobb magasságát. Ha üresen hagyja a mezőt vagy 0-t ad meg, a magasság nincs korlátozva."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "A Google Scholar keresésre mutató hivatkozás ezzel a beállítással kapcsolható be és ki."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Google Scholar bekapcsolása"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Az Europe PMC keresésre mutató hivatkozás ezzel a beállítással kapcsolható be és ki."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Europe PMC bekapcsolása"

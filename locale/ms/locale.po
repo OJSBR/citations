@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ms\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Pemalam Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Pemalam ini memaparkan jumlah keseluruhan sitasi dan senarai artikel \"disitasi oleh\" daripada Scopus dan/atau Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Penyedia"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Pilih antara Crossref, Scopus atau kedua-duanya."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus & Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Kelayakan API diminta dalam medan berikut. Ia disimpan tetapi tidak dipaparkan semula atas sebab keselamatan. Anda tidak perlu memasukkannya semula kerana yang tersimpan akan digunakan. Jika tersimpan, medan berkenaan ditandai dengan sempadan biru."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Untuk mendapatkan statistik sitasi daripada Scopus anda memerlukan kunci API. Jika belum ada, anda boleh memohonnya <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">di sini</a> (percuma)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Masukkan kunci API Scopus di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Untuk mengakses Crossref anda perlu menjadi <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">ahli</a> Crossref. Ini melibatkan <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">yuran</a>.<br />Jika anda ahli Crossref, masukkan kelayakan anda di sini.<br /><strong>Perkhidmatan Cited-by didayakan secara lalai untuk semua ahli/awalan Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Masukkan nama pengguna Crossref di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Masukkan kata laluan Crossref di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Jumlah keseluruhan sitasi"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Jumlah keseluruhan sitasi boleh didayakan atau dinyahdayakan dengan pilihan ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Dayakan jumlah keseluruhan sitasi"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "senarai artikel \"disitasi oleh\""
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Senarai artikel \"disitasi oleh\" boleh didayakan atau dinyahdayakan dengan pilihan ini"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Dayakan senarai artikel \"disitasi oleh\""
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Tinggi blok"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Masukkan tinggi maksimum blok di sini. Jika medan dibiarkan kosong atau diisi 0, tinggi tidak dihadkan."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Pautan ke carian Google Scholar boleh didayakan atau dinyahdayakan dengan pilihan ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Dayakan Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Pautan ke carian Europe PMC boleh didayakan atau dinyahdayakan dengan pilihan ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Dayakan Europe PMC"

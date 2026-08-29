@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: az\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref plagini"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Bu plagin Scopus və/və ya Crossref-dən sitatların ümumi sayını və \"sitat gətirən\" məqalələr siyahısını göstərir."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Təchizatçı"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Crossref, Scopus və ya hər ikisi arasında seçim edin."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus və Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API giriş məlumatları aşağıdakı sahələrdə istənilir. Onlar saxlanılır, lakin təhlükəsizlik üçün yenidən göstərilmir. Məlumatları yenidən daxil etməyə ehtiyac yoxdur, çünki artıq saxlanılanlardan istifadə olunacaq. Saxlanılıbsa, uyğun sahələr mavi haşiyə ilə işarələnir."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus-dan sitat statistikasını almaq üçün API açarı lazımdır. Hələ açarınız yoxdursa, <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">buradan</a> pulsuz tələb edə bilərsiniz"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Scopus API açarını buraya yazın."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref-ə giriş üçün Crossref <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">üzvü</a> olmalısınız. Bu, <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">haqq</a> ilə bağlıdır.<br />Crossref üzvüsünüzsə, giriş məlumatlarınızı buraya yazın.<br /><strong>Cited-by xidməti bütün Crossref üzvləri/prefiksləri üçün standart olaraq aktivdir.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Crossref istifadəçi adını buraya yazın."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Crossref parolunu buraya yazın."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Sitatların ümumi sayı"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Sitatların ümumi sayı bu seçimlə aktiv və ya deaktiv edilə bilər."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Sitatların ümumi sayını aktivləşdir"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "\"sitat gətirən\" məqalələr siyahısı"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "\"Sitat gətirən\" məqalələr siyahısı bu seçimlə aktiv və ya deaktiv edilə bilər"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "\"Sitat gətirən\" məqalələr siyahısını aktivləşdir"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Blokun hündürlüyü"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Blokun maksimum hündürlüyünü buraya yazın. Sahəni boş buraxsanız və ya 0 yazsanız, hündürlük məhdudlaşdırılmır."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar axtarışına keçid bu seçimlə aktiv və ya deaktiv edilə bilər."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Google Scholar-ı aktivləşdir"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC axtarışına keçid bu seçimlə aktiv və ya deaktiv edilə bilər."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Europe PMC-ni aktivləşdir"

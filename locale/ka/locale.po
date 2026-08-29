@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ka\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref დანამატი"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "ეს დანამატი აჩვენებს ციტირებების საერთო რაოდენობასა და „ციტირებულია“ სტატიების სიას Scopus-იდან და/ან Crossref-იდან."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "მომწოდებელი"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "აირჩიეთ Crossref, Scopus ან ორივე."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus და Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API-ის სერტიფიკატები იკითხება ქვემოთ მოცემულ ველებში. ისინი ინახება, მაგრამ უსაფრთხოებისთვის ხელახლა არ ჩანს. ხელახლა შეყვანა საჭირო არ არის — გამოიყენება უკვე შენახული. თუ შენახულია, შესაბამისი ველები ლურჯი ჩარჩოთია მონიშნული."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus-იდან ციტირების სტატისტიკის მისაღებად საჭიროა API გასაღები. თუ ჯერ არ გაქვთ, შეგიძლიათ მოითხოვოთ <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">აქ</a> (უფასოდ)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "აქ შეიყვანეთ Scopus-ის API გასაღები."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref-ზე წვდომისთვის უნდა იყოთ Crossref-ის <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">წევრი</a>, რაც <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">საფასურთანაა</a> დაკავშირებული.<br />თუ წევრი ხართ, აქ შეიყვანეთ თქვენი სერტიფიკატები.<br /><strong>სერვისი Cited-by ნაგულისხმევად ჩართულია Crossref-ის ყველა წევრისა და პრეფიქსისთვის.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "აქ შეიყვანეთ Crossref-ის მომხმარებლის სახელი."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "აქ შეიყვანეთ Crossref-ის პაროლი."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "ციტირებების საერთო რაოდენობა"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "ციტირებების საერთო რაოდენობა ამ პარამეტრით ჩაირთვება ან გამოირთვება."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "ჩართე ციტირებების საერთო რაოდენობა"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "„ციტირებულია“ სტატიების სია"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "„ციტირებულია“ სტატიების სია ამ პარამეტრით ჩაირთვება ან გამოირთვება"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "ჩართე „ციტირებულია“ სტატიების სია"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "ბლოკის სიმაღლე"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "აქ შეიყვანეთ ბლოკის მაქსიმალური სიმაღლე. თუ ველს ცარიელს დატოვებთ ან 0-ს მიუთითებთ, სიმაღლე არ შეიზღუდება."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar-ის ძებნის ბმული ამ პარამეტრით ჩაირთვება ან გამოირთვება."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "ჩართე Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC-ის ძებნის ბმული ამ პარამეტრით ჩაირთვება ან გამოირთვება."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "ჩართე Europe PMC"

@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: tr\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref eklentisi"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Bu eklenti, Scopus ve/veya Crossref'ten toplam atıf sayısını ve \"atıf yapan\" makale listesini gösterir."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Sağlayıcı"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Crossref, Scopus veya ikisi arasında seçim yapın."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus ve Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API kimlik bilgileri aşağıdaki alanlarda istenir. Bunlar saklanır, ancak güvenlik için yeniden gösterilmez. Yeniden girmeniz gerekmez; hâlihazırda saklananlar kullanılır. Kayıtlı bilgi varsa ilgili alanlar mavi çerçeveyle işaretlenir."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus'tan atıf istatistiklerini almak için bir API anahtarı gerekir. Henüz yoksa <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">buradan</a> ücretsiz talep edebilirsiniz"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Scopus API anahtarını buraya girin."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref'e erişmek için Crossref <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">üyesi</a> olmanız gerekir; bu <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">ücretlere</a> tabidir.<br />Crossref üyesiyseniz kimlik bilgilerinizi buraya girin.<br /><strong>Cited-by hizmeti tüm Crossref üyeleri/ön ekleri için varsayılan olarak etkindir.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Crossref kullanıcı adını buraya girin."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Crossref parolasını buraya girin."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Toplam atıf sayısı"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Toplam atıf sayısı bu seçenekle açılıp kapatılabilir."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Toplam atıf sayısını etkinleştir"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "\"atıf yapan\" makale listesi"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "\"Atıf yapan\" makale listesi bu seçenekle açılıp kapatılabilir"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "\"Atıf yapan\" makale listesini etkinleştir"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Blok yüksekliği"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Bloğun en fazla yüksekliğini buraya girin. Alanı boş bırakır veya 0 yazarsanız yükseklik sınırlanmaz."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar aramasına giden bağlantı bu seçenekle açılıp kapatılabilir."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Google Scholar'ı etkinleştir"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC aramasına giden bağlantı bu seçenekle açılıp kapatılabilir."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Europe PMC'yi etkinleştir"

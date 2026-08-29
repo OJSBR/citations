@@ -9,10 +9,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-08-13T12:30:27+00:00\n"
 "PO-Revision-Date: 2021-08-13T12:30:27+00:00\n"
-"Language: \n"
+"Language: pt\n"
+
 
 msgid "plugins.generic.citations.title"
-msgstr "Plugin Scopus/CrossRef" 
+msgstr "Plugin Scopus/CrossRef"
 
 msgid "plugins.generic.citations.desc"
 msgstr "Esse plugin exibe o número total de citações e uma lista de artigos que o citam, obtida da Scopus e/ou CrossRef."
@@ -48,10 +49,7 @@ msgid "plugins.generic.citations.crossref"
 msgstr "API da CrossRef"
 
 msgid "plugins.generic.citations.crossref.desc"
-msgstr ""
-"Para ter acesso à API da CrossRef, você deve ser um <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">membro</a> da CrossRef. Isto está associado a <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">taxas</a>."
-"<br /> Se você é um membro do CrossHef, por favor insira suas credenciais aqui."
-"<br /><strong> Você deve <a href=\"https://www.crossref.org/contact\" target=\"_blank\">contatar a CrossRef</a> para solicitar que o serviço \"Citado por\" seja habilitado para o(s) seu(s) prefixo(s).</strong>"
+msgstr "Para ter acesso à API da CrossRef, você deve ser um <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">membro</a> da CrossRef. Isto está associado a <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">taxas</a>.<br /> Se você é um membro do CrossHef, por favor insira suas credenciais aqui.<br /><strong> Você deve <a href=\"https://www.crossref.org/contact\" target=\"_blank\">contatar a CrossRef</a> para solicitar que o serviço \"Citado por\" seja habilitado para o(s) seu(s) prefixo(s).</strong>"
 
 msgid "plugins.generic.citations.crossref.name"
 msgstr "Digite aqui o nome do usuário da API da CrossRef"

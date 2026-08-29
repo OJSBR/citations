@@ -1,10 +1,10 @@
 # Citations (Scopus / Crossref) — OJS 3.5 plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-3.5.0.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-3.5.0.1-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/citations/releases/download/3.5.0.0/citations-3.5.0.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/citations/releases/download/3.5.0.1/citations-3.5.0.1.tar.gz) — or browse all [Releases](../../releases).
 
 Shows, on the article (and preprint) landing page, the **total number of citations** and the
 **list of citing works**, gathered from **Crossref Cited-by**, **Scopus**, **Europe PMC** and
@@ -23,7 +23,7 @@ Shows, on the article (and preprint) landing page, the **total number of citatio
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS/OPS 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 3.5.0.0 |
+| OJS/OPS 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 3.5.0.1 |
 | OJS/OPS 3.4.x | [`stable-3_4_0`](../../tree/stable-3_4_0) *(upstream mirror)* | 3.4.0.1 |
 
 Requires PHP 8.2+. Tested on OJS 3.5.0-3 and 3.5.0-5.

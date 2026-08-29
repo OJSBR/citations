@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hy\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref հավելված"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Այս հավելումը ցուցադրում է հղումների ընդհանուր թիվը և «հղում է կատարել» հոդվածների ցանկը Scopus-ից և/կամ Crossref-ից։"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Մատակարար"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Ընտրեք Crossref, Scopus կամ երկուսն էլ։"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus և Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API-ի հավատարմագրերը հարցվում են ստորև դաշտերում։ Դրանք պահվում են, բայց անվտանգության համար կրկին չեն ցուցադրվում։ Կրկին մուտքագրելու կարիք չկա՝ կօգտագործվեն արդեն պահվածները։ Եթե պահված են, համապատասխան դաշտերը նշվում են կապույտ եզրագծով։"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopus-ից հղումների վիճակագրություն ստանալու համար անհրաժեշտ է API բանալի։ Եթե դեռ չունեք, կարող եք հայցել <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">այստեղ</a> (անվճար)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Այստեղ մուտքագրեք Scopus API բանալին։"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossref մուտք գործելու համար պետք է լինեք Crossref-ի <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">անդամ</a>, ինչը կապված է <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">վճարների</a> հետ։<br />Եթե անդամ եք, մուտքագրեք ձեր հավատարմագրերն այստեղ։<br /><strong>Cited-by ծառայությունը կանխադրված միացված է Crossref-ի բոլոր անդամների/նախածանցների համար։</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Այստեղ մուտքագրեք Crossref-ի օգտվողի անունը։"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Այստեղ մուտքագրեք Crossref-ի գաղտնաբառը։"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Հղումների ընդհանուր թիվը"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Հղումների ընդհանուր թիվը կարելի է միացնել կամ անջատել այս ընտրանքով։"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Միացնել հղումների ընդհանուր թիվը"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "«հղում է կատարել» հոդվածների ցանկ"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "«Հղում է կատարել» հոդվածների ցանկը կարելի է միացնել կամ անջատել այս ընտրանքով"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Միացնել «հղում է կատարել» հոդվածների ցանկը"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Բլոկի բարձրություն"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Այստեղ մուտքագրեք բլոկի առավելագույն բարձրությունը։ Եթե դաշտը դատարկ թողնեք կամ նշեք 0, բարձրությունը չի սահմանափակվի։"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar-ի որոնման հղումը կարելի է միացնել կամ անջատել այս ընտրանքով։"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Միացնել Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC-ի որոնման հղումը կարելի է միացնել կամ անջատել այս ընտրանքով։"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Միացնել Europe PMC"

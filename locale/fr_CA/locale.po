@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fr_CA\n"
+
+
+msgid "plugins.generic.citations.title"
+msgstr "Module Scopus/Crossref"
+
+msgid "plugins.generic.citations.desc"
+msgstr "Ce module affiche le nombre total de citations et une liste des articles « cité par » provenant de Scopus ou de Crossref."
+
+msgid "plugins.generic.citations.provider"
+msgstr "Fournisseur"
+
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Choisissez entre Crossref, Scopus ou les deux."
+
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus et Crossref"
+
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+msgid "plugins.generic.citations.api.desc"
+msgstr "Les identifiants de l'API sont demandés dans les champs suivants. Ils sont enregistrés mais non réaffichés pour des raisons de sécurité. Vous n'avez pas à les ressaisir : les identifiants déjà enregistrés seront utilisés. S'ils sont enregistrés, les champs correspondants sont encadrés en bleu."
+
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Pour récupérer les statistiques de citation de Scopus, il vous faut une clé API. Si vous n'en avez pas encore, vous pouvez en demander une <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">ici</a> (gratuitement)"
+
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Saisissez ici la clé API Scopus."
+
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Pour accéder à Crossref, vous devez être <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">membre</a> de Crossref, ce qui suppose des <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">frais</a>.<br />Si vous êtes membre de Crossref, saisissez ici vos identifiants.<br /><strong>Le service Cited-by est activé par défaut pour tous les membres et préfixes de Crossref.</strong>"
+
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Saisissez ici le nom d'utilisateur Crossref."
+
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Saisissez ici le mot de passe Crossref."
+
+msgid "plugins.generic.citations.show.total"
+msgstr "Nombre total de citations"
+
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Le nombre total de citations peut être activé ou désactivé avec cette option."
+
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Activer le nombre total de citations"
+
+msgid "plugins.generic.citations.show.list"
+msgstr "liste des articles « cité par »"
+
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "La liste des articles « cité par » peut être activée ou désactivée avec cette option"
+
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Activer la liste des articles « cité par »"
+
+msgid "plugins.generic.citations.max.height"
+msgstr "Hauteur du bloc"
+
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Saisissez ici la hauteur maximale du bloc. Si vous laissez le champ vide ou saisissez 0, la hauteur n'est pas limitée."
+
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Le lien vers la recherche Google Scholar peut être activé ou désactivé avec cette option."
+
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Activer Google Scholar"
+
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Le lien vers la recherche Europe PMC peut être activé ou désactivé avec cette option."
+
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Activer Europe PMC"

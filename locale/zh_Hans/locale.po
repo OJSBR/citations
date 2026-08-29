@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref 插件"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "该插件显示来自 Scopus 和/或 Crossref 的被引总数与“被引用”文章列表。"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "提供方"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "在 Crossref、Scopus 或两者之间选择。"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus 与 Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API 凭据在下列字段中填写。凭据会被保存，但出于安全考虑不会再次显示。无需重新输入，系统会使用已保存的凭据。若已保存，相应输入框会以蓝色边框标示。"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "要从 Scopus 获取被引统计，需要一个 API 密钥。如果尚未拥有，可在<a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">此处</a>免费申请"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "在此输入 Scopus API 密钥。"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "要访问 Crossref，您必须是 Crossref 的<a href=\"https://www.crossref.org/membership/\" target=\"_blank\">会员</a>，并需缴纳<a href=\"https://www.crossref.org/fees/\" target=\"_blank\">费用</a>。<br />若您是 Crossref 会员，请在此填写凭据。<br /><strong>Cited-by 服务对所有 Crossref 会员/前缀默认启用。</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "在此输入 Crossref 用户名。"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "在此输入 Crossref 密码。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "被引总数"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "可通过该选项启用或停用被引总数。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "启用被引总数"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "“被引用”文章列表"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "可通过该选项启用或停用“被引用”文章列表"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "启用“被引用”文章列表"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "区块高度"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "在此填写区块的最大高度。留空或填 0 则不限制高度。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google 学术搜索"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "可通过该选项启用或停用指向 Google 学术搜索的链接。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "启用 Google 学术搜索"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "可通过该选项启用或停用指向 Europe PMC 检索的链接。"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "启用 Europe PMC"

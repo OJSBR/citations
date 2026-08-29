@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pl\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Wtyczka Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Ta wtyczka pokazuje łączną liczbę cytowań oraz listę artykułów „cytowane przez” ze Scopus i/lub Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Dostawca"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Wybierz Crossref, Scopus lub oba."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus i Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Dane dostępowe API są wprowadzane w poniższych polach. Są zapisywane, ale ze względów bezpieczeństwa nie są ponownie wyświetlane. Nie trzeba ich wpisywać ponownie — użyte zostaną już zapisane. Gdy dane są zapisane, odpowiednie pola mają niebieską ramkę."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Aby pobierać statystyki cytowań ze Scopus, potrzebujesz klucza API. Jeśli jeszcze go nie masz, możesz poprosić o niego <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">tutaj</a> (bezpłatnie)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Podaj tutaj klucz API Scopus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Aby uzyskać dostęp do Crossref, trzeba być <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">członkiem</a> Crossref. Wiąże się to z <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">opłatami</a>.<br />Jeśli jesteś członkiem Crossref, podaj tutaj swoje dane dostępowe.<br /><strong>Usługa Cited-by jest domyślnie włączona dla wszystkich członków i prefiksów Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Podaj tutaj nazwę użytkownika Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Podaj tutaj hasło do Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Łączna liczba cytowań"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Łączną liczbę cytowań można włączyć lub wyłączyć tą opcją."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Włącz łączną liczbę cytowań"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "lista artykułów „cytowane przez”"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Listę artykułów „cytowane przez” można włączyć lub wyłączyć tą opcją"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Włącz listę artykułów „cytowane przez”"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Wysokość bloku"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Podaj tutaj maksymalną wysokość bloku. Jeśli zostawisz pole puste lub wpiszesz 0, wysokość nie będzie ograniczona."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Odnośnik do wyszukiwania w Google Scholar można włączyć lub wyłączyć tą opcją."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Włącz Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Odnośnik do wyszukiwania w Europe PMC można włączyć lub wyłączyć tą opcją."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Włącz Europe PMC"

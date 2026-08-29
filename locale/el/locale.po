@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: el\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Πρόσθετο Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Αυτό το πρόσθετο εμφανίζει τον συνολικό αριθμό αναφορών και μια λίστα άρθρων «αναφέρεται από» από Scopus ή/και Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Πάροχος"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Επιλέξτε μεταξύ Crossref, Scopus ή και των δύο."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus και Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Τα διαπιστευτήρια του API ζητούνται στα παρακάτω πεδία. Αποθηκεύονται αλλά δεν εμφανίζονται ξανά για λόγους ασφαλείας. Δεν χρειάζεται να τα εισαγάγετε ξανά, καθώς θα χρησιμοποιηθούν τα ήδη αποθηκευμένα. Αν υπάρχουν αποθηκευμένα, τα αντίστοιχα πεδία επισημαίνονται με μπλε περίγραμμα."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Για να λαμβάνετε στατιστικά αναφορών από το Scopus χρειάζεστε κλειδί API. Αν δεν έχετε ακόμη, μπορείτε να ζητήσετε ένα <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">εδώ</a> (δωρεάν)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Εισαγάγετε εδώ το κλειδί API του Scopus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Για πρόσβαση στο Crossref πρέπει να είστε <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">μέλος</a> του Crossref. Αυτό συνεπάγεται <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">συνδρομές</a>.<br />Αν είστε μέλος, εισαγάγετε εδώ τα διαπιστευτήριά σας.<br /><strong>Η υπηρεσία Cited-by είναι ενεργοποιημένη από προεπιλογή για όλα τα μέλη/προθέματα του Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Εισαγάγετε εδώ το όνομα χρήστη Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Εισαγάγετε εδώ τον κωδικό πρόσβασης Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Συνολικός αριθμός αναφορών"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Ο συνολικός αριθμός αναφορών μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί με αυτή την επιλογή."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Ενεργοποίηση συνολικού αριθμού αναφορών"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "λίστα άρθρων «αναφέρεται από»"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Η λίστα άρθρων «αναφέρεται από» μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί με αυτή την επιλογή"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Ενεργοποίηση λίστας άρθρων «αναφέρεται από»"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Ύψος μπλοκ"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Εισαγάγετε εδώ το μέγιστο ύψος του μπλοκ. Αν αφήσετε το πεδίο κενό ή βάλετε 0, το ύψος δεν περιορίζεται."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Ο σύνδεσμος προς την αναζήτηση στο Google Scholar μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί με αυτή την επιλογή."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Ενεργοποίηση Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Ο σύνδεσμος προς την αναζήτηση στο Europe PMC μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί με αυτή την επιλογή."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Ενεργοποίηση Europe PMC"

@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ar\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "ملحق Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "يعرض هذا الملحق إجمالي عدد الاستشهادات وقائمة المقالات المستشهِدة من Scopus و/أو Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "المزوّد"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "اختر بين Crossref أو Scopus أو كليهما."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus وCrossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "تُطلب بيانات اعتماد الواجهة البرمجية في الحقول التالية. وهي تُخزَّن ولا تُعرض مرة أخرى لأسباب أمنية. ولا حاجة لإعادة إدخالها، إذ ستُستخدم البيانات المخزَّنة. وإذا كانت مخزَّنة، فحقول الإدخال المقابلة تظهر بإطار أزرق."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "للحصول على إحصاءات الاستشهاد من Scopus تحتاج إلى مفتاح API. وإن لم يكن لديك مفتاح بعد، يمكنك طلبه <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">من هنا</a> (مجاناً)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "أدخل هنا مفتاح Scopus API."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "للوصول إلى Crossref يجب أن تكون <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">عضواً</a> في Crossref، وهو ما تترتب عليه <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">رسوم</a>.<br />إن كنت عضواً في Crossref، فأدخل بيانات اعتمادك هنا.<br /><strong>خدمة Cited-by مفعّلة افتراضياً لكل أعضاء Crossref وبادئاتهم.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "أدخل هنا اسم مستخدم Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "أدخل هنا كلمة مرور Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "إجمالي عدد الاستشهادات"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "يمكن تفعيل أو تعطيل إجمالي عدد الاستشهادات بهذا الخيار."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "تفعيل إجمالي عدد الاستشهادات"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "قائمة المقالات المستشهِدة"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "يمكن تفعيل أو تعطيل قائمة المقالات المستشهِدة بهذا الخيار"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "تفعيل قائمة المقالات المستشهِدة"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "ارتفاع المربّع"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "أدخل هنا أقصى ارتفاع للمربّع. إذا تركت الحقل فارغاً أو أدخلت 0، فلن يُقيَّد الارتفاع."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "يمكن تفعيل أو تعطيل رابط البحث في Google Scholar بهذا الخيار."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "تفعيل Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "يمكن تفعيل أو تعطيل رابط البحث في Europe PMC بهذا الخيار."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "تفعيل Europe PMC"

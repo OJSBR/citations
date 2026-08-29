@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: id\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Plugin Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Plugin ini menampilkan jumlah total sitasi dan daftar artikel \"disitasi oleh\" dari Scopus dan/atau Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Penyedia"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Pilih antara Crossref, Scopus, atau keduanya."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus & Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Kredensial API diminta pada bidang-bidang berikut. Kredensial disimpan tetapi tidak ditampilkan lagi demi keamanan. Anda tidak perlu memasukkannya kembali karena yang tersimpan akan dipakai. Bila sudah tersimpan, bidang terkait ditandai dengan garis tepi biru."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Untuk mengambil statistik sitasi dari Scopus Anda memerlukan kunci API. Jika belum punya, Anda bisa memintanya <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">di sini</a> (gratis)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Masukkan kunci API Scopus di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Untuk mengakses Crossref Anda harus menjadi <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">anggota</a> Crossref. Keanggotaan ini dikenakan <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">biaya</a>.<br />Jika Anda anggota Crossref, masukkan kredensial Anda di sini.<br /><strong>Layanan Cited-by aktif secara bawaan untuk semua anggota/prefiks Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Masukkan nama pengguna Crossref di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Masukkan kata sandi Crossref di sini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Jumlah total sitasi"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Jumlah total sitasi dapat diaktifkan atau dinonaktifkan dengan opsi ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Aktifkan jumlah total sitasi"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "daftar artikel \"disitasi oleh\""
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Daftar artikel \"disitasi oleh\" dapat diaktifkan atau dinonaktifkan dengan opsi ini"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Aktifkan daftar artikel \"disitasi oleh\""
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Tinggi blok"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Masukkan tinggi maksimum blok di sini. Jika bidang dikosongkan atau diisi 0, tinggi tidak dibatasi."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Tautan ke pencarian Google Scholar dapat diaktifkan atau dinonaktifkan dengan opsi ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Aktifkan Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Tautan ke pencarian Europe PMC dapat diaktifkan atau dinonaktifkan dengan opsi ini."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Aktifkan Europe PMC"

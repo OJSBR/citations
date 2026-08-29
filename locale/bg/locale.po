@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: bg\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Приставка Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Тази приставка показва общия брой цитирания и списък със статии „цитирано от“ от Scopus и/или Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Доставчик"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Изберете между Crossref, Scopus или и двете."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus и Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Данните за достъп до API се въвеждат в полетата по-долу. Те се съхраняват, но не се показват отново от съображения за сигурност. Не е нужно да ги въвеждате повторно — ще се използват вече запазените. Когато има запазени данни, съответните полета са отбелязани със синя рамка."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "За да получавате статистика за цитиранията от Scopus, ви трябва API ключ. Ако още нямате, можете да поискате <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">тук</a> (безплатно)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Въведете тук API ключа за Scopus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "За достъп до Crossref трябва да сте <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">член</a> на Crossref. Това е свързано с <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">такси</a>.<br />Ако сте член на Crossref, въведете данните си тук.<br /><strong>Услугата Cited-by е включена по подразбиране за всички членове/префикси на Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Въведете тук потребителското име за Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Въведете тук паролата за Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Общ брой цитирания"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Общият брой цитирания може да се включва и изключва с тази опция."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Активиране на общия брой цитирания"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "списък със статии „цитирано от“"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Списъкът „цитирано от“ може да се включва и изключва с тази опция"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Активиране на списъка „цитирано от“"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Височина на блока"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Въведете тук максималната височина на блока. Ако оставите полето празно или въведете 0, височината не се ограничава."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Връзката към търсенето в Google Scholar може да се включва и изключва с тази опция."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Активиране на Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Връзката към търсенето в Europe PMC може да се включва и изключва с тази опция."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Активиране на Europe PMC"

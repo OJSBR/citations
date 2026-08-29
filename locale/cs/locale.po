@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: cs\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Zásuvný modul Scopus/Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Tento zásuvný modul zobrazuje celkový počet citací a seznam článků „citováno v“ ze Scopus a/nebo Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Poskytovatel"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Zvolte mezi Crossref, Scopus nebo obojím."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus a Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "Přihlašovací údaje k API se zadávají v následujících polích. Ukládají se, ale z bezpečnostních důvodů se znovu nezobrazují. Nemusíte je zadávat znovu, použijí se již uložené. Jsou-li uloženy, mají příslušná pole modrý rámeček."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "K získání citačních statistik ze Scopus potřebujete klíč API. Pokud jej ještě nemáte, můžete o něj požádat <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">zde</a> (zdarma)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Zadejte zde klíč Scopus API."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Pro přístup ke Crossref musíte být <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">členem</a> Crossref. To je spojeno s <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">poplatky</a>.<br />Jste-li členem Crossref, zadejte zde své přihlašovací údaje.<br /><strong>Služba Cited-by je ve výchozím nastavení zapnuta pro všechny členy a prefixy Crossref.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Zadejte zde uživatelské jméno Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Zadejte zde heslo Crossref."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Celkový počet citací"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Celkový počet citací lze touto volbou zapnout či vypnout."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Zapnout celkový počet citací"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "seznam článků „citováno v“"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "Seznam článků „citováno v“ lze touto volbou zapnout či vypnout"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Zapnout seznam článků „citováno v“"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Výška bloku"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Zadejte zde maximální výšku bloku. Necháte-li pole prázdné nebo zadáte 0, výška se neomezuje."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Odkaz na vyhledávání v Google Scholar lze touto volbou zapnout či vypnout."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Zapnout Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Odkaz na vyhledávání v Europe PMC lze touto volbou zapnout či vypnout."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Zapnout Europe PMC"

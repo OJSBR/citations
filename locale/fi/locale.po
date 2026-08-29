@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fi\n"
+
+
+#, fuzzy
+msgid "plugins.generic.citations.title"
+msgstr "Scopus/Crossref-lisäosa"
+
+#, fuzzy
+msgid "plugins.generic.citations.desc"
+msgstr "Tämä lisäosa näyttää viittausten kokonaismäärän ja ”viittaavat artikkelit” -luettelon Scopuksesta ja/tai Crossrefistä."
+
+#, fuzzy
+msgid "plugins.generic.citations.provider"
+msgstr "Palveluntarjoaja"
+
+#, fuzzy
+msgid "plugins.generic.citations.provider.desc"
+msgstr "Valitse Crossref, Scopus tai molemmat."
+
+#, fuzzy
+msgid "plugins.generic.citations.options.all"
+msgstr "Scopus ja Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.options.crossref"
+msgstr "Crossref"
+
+#, fuzzy
+msgid "plugins.generic.citations.api.desc"
+msgstr "API-tunnukset pyydetään seuraavissa kentissä. Ne tallennetaan, mutta niitä ei näytetä uudelleen turvallisuussyistä. Sinun ei tarvitse syöttää niitä uudelleen, sillä jo tallennettuja käytetään. Jos tunnukset on tallennettu, vastaavat kentät on merkitty sinisellä reunuksella."
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus"
+msgstr "Scopus"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.desc"
+msgstr "Scopuksen viittaustilastojen hakemiseen tarvitset API-avaimen. Jos sinulla ei vielä ole avainta, voit pyytää sitä <a href=\"https://dev.elsevier.com/sc_apis.html\" target=\"_blank\">täältä</a> (maksutta)"
+
+#, fuzzy
+msgid "plugins.generic.citations.scopus.key"
+msgstr "Anna tähän Scopus-API-avain."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref"
+msgstr "CrossRef"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.desc"
+msgstr "Crossrefin käyttö edellyttää Crossrefin <a href=\"https://www.crossref.org/membership/\" target=\"_blank\">jäsenyyttä</a>, johon liittyy <a href=\"https://www.crossref.org/fees/\" target=\"_blank\">maksuja</a>.<br />Jos olet Crossrefin jäsen, anna tunnuksesi tässä.<br /><strong>Cited-by-palvelu on oletuksena käytössä kaikilla Crossrefin jäsenillä ja etuliitteillä.</strong>"
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.name"
+msgstr "Anna tähän Crossref-käyttäjätunnus."
+
+#, fuzzy
+msgid "plugins.generic.citations.crossref.pwd"
+msgstr "Anna tähän Crossref-salasana."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total"
+msgstr "Viittausten kokonaismäärä"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.desc"
+msgstr "Viittausten kokonaismäärän voi ottaa käyttöön tai poistaa käytöstä tällä asetuksella."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.total.check"
+msgstr "Ota käyttöön viittausten kokonaismäärä"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list"
+msgstr "”viittaavat artikkelit” -luettelo"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.desc"
+msgstr "”Viittaavat artikkelit” -luettelon voi ottaa käyttöön tai poistaa käytöstä tällä asetuksella"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.list.check"
+msgstr "Ota käyttöön ”viittaavat artikkelit” -luettelo"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height"
+msgstr "Lohkon korkeus"
+
+#, fuzzy
+msgid "plugins.generic.citations.max.height.desc"
+msgstr "Anna tähän lohkon enimmäiskorkeus. Jos jätät kentän tyhjäksi tai annat arvon 0, korkeutta ei rajoiteta."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google"
+msgstr "Google Scholar"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.desc"
+msgstr "Google Scholar -haun linkin voi ottaa käyttöön tai poistaa käytöstä tällä asetuksella."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.google.check"
+msgstr "Ota Google Scholar käyttöön"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc"
+msgstr "Europe PMC"
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.desc"
+msgstr "Europe PMC -haun linkin voi ottaa käyttöön tai poistaa käytöstä tällä asetuksella."
+
+#, fuzzy
+msgid "plugins.generic.citations.show.pmc.check"
+msgstr "Ota Europe PMC käyttöön"
