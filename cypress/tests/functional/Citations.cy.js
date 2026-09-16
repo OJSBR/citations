@@ -153,13 +153,14 @@ describe('Citations plugin', function() {
 		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).then(($checkbox) => {
 			if ($checkbox.is(':checked')) {
 				cy.wrap($checkbox).click();
-				// Disabling asks for confirmation; the button is taken by position so
-				// that the spec does not depend on the language.
-				cy.get('[role="dialog"] button, .pkp_modal button, .modal button', {timeout: 30000}).first().click({force: true});
+				// Disabling asks for confirmation. PKP puts the confirm button first,
+				// whatever it is called and whichever build renders the modal.
+				cy.get('div[class*="pkp_modal_panel"] button[class*="pkpModalConfirmButton"], [role="dialog"] button, div[class*="modal"] button', {timeout: 30000})
+					.first().click({force: true});
 				waitJQuery();
 			}
 		});
-		cy.get('input[id^="select-cell-' + rowName + '-enabled"]').should('not.be.checked');
+		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).should('not.be.checked');
 
 		articlePage().then((response) => {
 			expect(response.body).to.not.contain('id="citation-plugin"');
