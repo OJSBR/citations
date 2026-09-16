@@ -126,6 +126,25 @@ branch plus the smallest set of changes needed to run:
 
 The processors, templates, CSS and JavaScript are untouched upstream code.
 
+## Tests
+
+- **PHPUnit** (`tests/`): what the plugin makes of the answers of Crossref and Scopus — the count,
+  the list built only when the journal asked for it, an answer that is not the expected XML or JSON,
+  and the requests it sends, against a mocked HTTP client. Without credentials no request is made at
+  all.
+- **Cypress** (`cypress/tests/functional/`): enables the plugin, checks that the article page carries
+  the block at most once, that the citations endpoint answers JSON, and that the page comes out
+  untouched while the plugin is off. Nothing is asked of Crossref or Scopus.
+- Verified on OJS 3.5.0.3.
+
+Tests are kept in the repository and are not part of the release package.
+
+## AI use
+
+Generative AI (Claude, by Anthropic) was used to write and run tests, improve the code and bring
+it in line with PKP standards. Every change is reviewed and tested by OJSBR, which is responsible
+for the published releases.
+
 ## Credits & acknowledgements
 
 * **[Ronny Bölter](https://github.com/RBoelter)** — author and maintainer of the original
@@ -218,6 +237,25 @@ As demais mudanças (DOI lido da publicação, guardas de contexto nulo, `json_d
 `TypeError` no PHP 8, logger sem handler que engolia todo erro do Guzzle, estilo do 3.5 e os
 locales novos) estão detalhadas na seção em inglês acima. Os processadores, os templates, o CSS e
 o JavaScript são código original, intocado.
+
+### Testes
+
+- **PHPUnit** (`tests/`): o que o plugin faz das respostas da Crossref e da Scopus — a contagem, a
+  lista montada só quando a revista pediu, uma resposta que não é o XML ou o JSON esperado, e as
+  requisições que ele envia, contra um cliente HTTP simulado. Sem credenciais, nenhuma requisição é
+  feita.
+- **Cypress** (`cypress/tests/functional/`): liga o plugin, confere que a página do artigo traz o
+  bloco no máximo uma vez, que o endpoint responde JSON e que a página sai intacta com o plugin
+  desligado. Nada é pedido à Crossref nem à Scopus.
+- Verificado no OJS 3.5.0.3.
+
+Os testes ficam no repositório e não fazem parte do pacote da release.
+
+### Uso de IA
+
+Foi usada IA generativa (Claude, da Anthropic) para escrever e rodar testes, melhorar o código e
+alinhá-lo aos padrões da PKP. Toda mudança é revisada e testada pela OJSBR, que responde pelas
+releases publicadas.
 
 ### Idiomas
 
