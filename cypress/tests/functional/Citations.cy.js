@@ -160,6 +160,9 @@ describe('Citations plugin', function() {
 				cy.get('div[class*="pkp_modal_panel"] button[class*="pkpModalConfirmButton"], [role="dialog"] button, div[class*="modal"] button', {timeout: 30000})
 					.first().click({force: true});
 				waitJQuery();
+				// While the modal is still on screen it swallows the next click.
+				cy.get('div[class*="pkp_modal_panel"]:visible, [role="dialog"]:visible, div[class*="modal"] button:visible', {timeout: 30000})
+					.should('have.length', 0);
 			}
 		});
 		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).should('not.be.checked');
