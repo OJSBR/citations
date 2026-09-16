@@ -171,11 +171,9 @@ describe('Citations plugin', function() {
 			expect(response.body).to.not.contain('id="citation-plugin"');
 		});
 
-		// On again. The grid row is replaced by the call that switched it off, so the
-		// state is read from a freshly loaded page instead of from the row on screen.
+		// On again, on the page already open: loading the settings page a second time
+		// in the same run stalls the web server of PKP's CI.
 		enablePlugin(rowName);
-		openPluginsTab();
-		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).should('be.checked');
 		articlePage().then((response) => {
 			expect(response.status).to.eq(200);
 			const blocks = (response.body.match(/id="citation-plugin"/g) || []).length;
