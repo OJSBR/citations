@@ -106,10 +106,10 @@ describe('Citations plugin', function() {
 
 	// ---- end of helpers ----
 
-	// The article page as a reader sees it, never from an edge cache.
+	// The article page, never from an edge cache: the query string is enough, and a
+	// session cookie of our own would replace the one this run is signed in with.
 	const articlePage = () => cy.request({
 		url: pageUrl('article/view/' + articleId) + '?cb=' + Date.now(),
-		headers: {Cookie: 'OJSSID=cypress' + Date.now()},
 		failOnStatusCode: false,
 	});
 
