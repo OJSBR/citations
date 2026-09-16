@@ -114,13 +114,10 @@ describe('Citations plugin', function() {
 	before(function() {
 		login(adminUser, adminPassword);
 		withArticle(() => {});
-	});
-
-	it('Enables the plugin', function() {
-		login(adminUser, adminPassword);
 		openPluginsTab();
 		enablePlugin(rowName);
 	});
+
 
 	it('Shows nothing on the article page until the journal configures it', function() {
 		// The block needs a DOI and the settings of the journal: with either missing
@@ -147,28 +144,33 @@ describe('Citations plugin', function() {
 		});
 	});
 
-	it('Leaves the article page untouched while it is off', function() {
+	it('Is switched off and on again, and the article page follows', function() {
+		// One load of the settings page for the whole run: loading it again while
+		// its plugin gallery request is pending stalls the web server of PKP's CI.
 		login(adminUser, adminPassword);
 		openPluginsTab();
 
 		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).then(($checkbox) => {
-			const wasEnabled = $checkbox.is(':checked');
-			if (wasEnabled) {
+			if ($checkbox.is(':checked')) {
 				cy.wrap($checkbox).click();
 				// Disabling asks for confirmation; the button is taken by position so
 				// that the spec does not depend on the language.
 				cy.get('[role="dialog"] button, .pkp_modal button, .modal button', {timeout: 30000}).first().click({force: true});
 				waitJQuery();
 			}
+		});
+		cy.get('input[id^="select-cell-' + rowName + '-enabled"]').should('not.be.checked');
 
-			articlePage().then((response) => {
-				expect(response.body).to.not.contain('id="citation-plugin"');
-			});
+		articlePage().then((response) => {
+			expect(response.body).to.not.contain('id="citation-plugin"');
+		});
 
-			if (wasEnabled) {
-				openPluginsTab();
-				enablePlugin(rowName);
-			}
+		// On again, and the block may come back where the journal configured it.
+		enablePlugin(rowName);
+		articlePage().then((response) => {
+			expect(response.status).to.eq(200);
+			const blocks = (response.body.match(/id="citation-plugin"/g) || []).length;
+			expect(blocks, 'the block is rendered at most once').to.be.at.most(1);
 		});
 	});
 });
