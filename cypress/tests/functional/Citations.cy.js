@@ -86,7 +86,9 @@ describe('Citations plugin', function() {
 				waitJQuery();
 			}
 		});
-		cy.get('input[id^="select-cell-' + rowName + '-enabled"]').should('be.checked');
+		// The grid redraws the row after the call: the checkbox is read again, and
+		// on a loaded server that takes longer than the default wait.
+		cy.get('input[id^="select-cell-' + rowName + '-enabled"]', {timeout: 30000}).should('be.checked');
 	};
 
 	// The article the reader's checks are made on: the first published one of the journal.
